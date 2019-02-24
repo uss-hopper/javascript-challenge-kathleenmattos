@@ -1,26 +1,12 @@
-/*	document.getElementById("lorem").onclick = changeColor;
-	var currentColor = "blue";
-	function changeColor() {
-		if(currentColor === "blue"){
-			document.body.style.color = "green";
-			currentColor = "green";
-		} else {
-			document.body.style.color  = "blue";
-			currentColor = "blue";
-		}
-	}*/
-
-/*function blueText() {
-	var coloredText = document.getElementsByClassName("lorem");
-	coloredText.style.color = "blue";
-}*/
-
-/*document.getElementsById("lorem").onclick = blueText;
-
-function blueText(){
-	document.lorem.style.color = "blue";
-}*/
-
-function color() {
+function blueText() {
 	document.getElementById("lorem").style.color = "blue";
+}
+function blackText() {
+	document.getElementById("lorem").style.color = "black";
+}
+function highlightWord() {
+	document.getElementById("pharetra").style.backgroundColor = "#ddff65";
+}
+function unHighlightWord() {
+	document.getElementById("pharetra").style.backgroundColor = "white";
 }
